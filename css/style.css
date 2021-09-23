@@ -1,0 +1,55 @@
+.title{
+	background-color: #0A22F4;
+	min-height: 308px;
+	border: 2px solid blue;
+}
+.title h2{
+	color: #FFFFFF;
+	font-size: 32px;
+	margin-top: 70px;
+	margin-left: 240px;
+}
+.first-project, .second-project, .third-project, .four-project{
+	display: inline-block;
+	position: relative;
+}
+a{
+	position: absolute;
+	bottom: 40px;
+	left: 30px;
+	right: 30px;
+	color: #171717;
+	padding: 30px 70px 30px 30px;
+	background-color: #FFFFFF;
+}
+.second-project a{
+	position: absolute;
+	bottom: 70px;
+	left: 50px;
+	right: 50px;
+}
+img{
+	width: 370px;
+}
+.projects-container{
+	position: relative;
+	margin-top: -90px;
+}
+.projects-container .first-project{
+	margin-left: 240px;
+}
+.projects-container .second-project{
+	position: absolute;
+	margin-top: -50px;
+}
+.projects-container .third-project{
+	margin-left: 360px;
+	margin-right: 20px;
+}
+.projects-container .four-project{
+	margin-right: -500px;
+}
+.more{
+	display: flex;
+	justify-content: flex-end;
+}
