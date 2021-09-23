@@ -1,9 +1,9 @@
-.title{
+header{
 	background-color: #0A22F4;
 	min-height: 308px;
 	border: 2px solid blue;
 }
-.title h2{
+header h2{
 	color: #FFFFFF;
 	font-size: 32px;
 	margin-top: 70px;
